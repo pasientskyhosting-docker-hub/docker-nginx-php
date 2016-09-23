@@ -7,7 +7,7 @@ MAINTAINER Marcin Ryzycki <marcin@m12.io>
 ENV \
   NVM_DIR=/usr/local/nvm \
   NODE_VERSION=6.3.0 \
-  STATUS_PAGE_ALLOWED_IP=127.0.0.1
+  STATUS_PAGE_ALLOWED_IP=10.50.0.0/16
 
 # Add install scripts needed by the next RUN command
 ADD container-files/config/install* /config/
